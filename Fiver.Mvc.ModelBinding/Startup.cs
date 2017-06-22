@@ -17,7 +17,8 @@ namespace Fiver.Mvc.ModelBinding
         public void ConfigureServices(
             IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc()
+                    .AddXmlSerializerFormatters();
         }
 
         public void Configure(
