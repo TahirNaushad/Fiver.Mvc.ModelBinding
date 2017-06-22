@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Fiver.Mvc.ModelBinding.Models.Home;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -114,6 +113,5 @@ namespace Fiver.Mvc.ModelBinding.Controllers
         }
 
         #endregion
-
     }
 }
